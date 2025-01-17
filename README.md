@@ -68,6 +68,14 @@ dataset/
 └── ...
 ```
 
+## Dataset guide
+- Files must be in wav format
+- Files are made in 1 complete file, not fragmented
+- If not in 1 file, then please do a merge
+- Samplerate: 16kHz, Bitrate: 256kbps
+- Minimum duration is 24 minutes
+- Negative dataset (non-target) should be sought that sounds similar to the sound of the positive dataset (target) so that the model is more accurate.
+
 ## Usage
 
 ### Training
